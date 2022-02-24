@@ -88,17 +88,13 @@ body {
     color: white;
     text-decoration: none;
     cursor: pointer;
+    font-size: 12px;
 }
 
 .PainelLogin__topo  {
     font-size: 18px;
     font-weight: bold;
     color: white;
-}
-
-.painelLogin__credenciais {
-
-    
 }
 
  .painelLogin__credenciais input {
