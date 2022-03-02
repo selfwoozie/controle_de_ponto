@@ -1,0 +1,102 @@
+/* ESTILIZAÇÃO DA PÁGINA DE MARCAÇÃO */
+
+
+
+.painelMarcacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* ESTILIZAÇÃO DAS INFORMAÇÕES DE HORÁRIO DATA E RELÓGIO */
+
+.container_infodata {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.container_infodata .infoData p {
+    margin: 8px 0;
+    color: #3D4853;
+}
+
+.container_infodata .infoData .horario {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.container_infodata .infoData .data {
+    font-size: 30px;
+    font-weight: 700;
+    font-size: 13.5px;
+}
+
+
+
+/* ESTILIZAÇÃO DOS BOTÕES E DESCRIÇÃO DAS MARCAÇÕES */
+
+.marcacao .containerBotoes {
+    display: flex;
+}
+
+.marcacao .botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D3D3D3;
+    border-radius: 100%;
+    width: 95px;
+    height: 95px;
+    color: #FFFFFF;
+}
+
+.container__btnGeral {
+    text-align: center;
+}
+
+.containerDescricao {
+    display: flex;
+}
+
+.descricao p {
+    margin-top: 20px;
+}
+
+.descricaoMarcacao .descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95px;
+    color: #3D4853;
+    margin: 0px 90px;
+}
+
+@media only screen and (max-width: 900px) {
+    .marcacao .containerBotoes, .containerDescricao {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .containerBarra, .barra {
+        display: none;
+    }
+
+}
+
+.containerBarra {
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra {
+    width: 200px;
+    height: 10px;
+    background-color: #D3D3D3;
+
+}

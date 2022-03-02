@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .barra {
+            width: 500px;
+            height: 200px;
+        }
+
+        .pai {
+            background-color: brown;
+            width: 800px;
+            height: 800px;
+        }
+        
+        .filho {
+            background-color: white;
+            width: 10%;
+            height: 10%;
+        }
+
+        .pai p {
+            font-size: 50px;
+            color: antiquewhite;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+
+    
+    <div class="pai">
+        <p>Hello, World</p>
+        <div class="filho">
+ 
+        </div>
+    </div>
+    
+    
+</body>
+
+<!--
+<script>
+    
+
+
+        
+    const loadingBar = document.querySelector(".barra")
+    green_bar = 1
+    grey_bar = 1
+
+    let loading = setInterval(loadBar, 1000)
+
+    function loadBar() {
+
+        loadingBar.style.backgroundImage = `linear-gradient(to right, #A4D9B3 ${green_bar}%, #D3D3D3 ${grey_bar}%)`
+        green_bar++
+        
+        if(green_bar >= 100)
+            clearInterval(loading)
+        
+    }   
+
+</script>
+-->
+
+</html>
+
+

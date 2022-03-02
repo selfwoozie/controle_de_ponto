@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFEFC;
+}
+
+.cabecalho {
+    background-color: #3D4853;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho figure img {
+    width: 60px;
+    height: 60px;
+    max-width: 140px;
+    margin-left: 20px;
+}
+
+.cabecalho h2 {
+    font-size: 4vw;
+    font-weight: bold;
+    margin-left: 10px;
+    color: white;
+ 
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+}
